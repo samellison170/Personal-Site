@@ -1,38 +1,96 @@
 div{
 
 }
+p{
+    line-height: 2;
+    font-family: 'Merriweather',serif;
+}
 body{
+  color: #40514E;
   margin: 0px;
   text-align: center;
   font-family: 'Merriweather',serif;
 }
 h1{
-  width: 10%;
+  font-size: 128px;
   margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
+  padding-bottom: 10px;
 }
 h2{
+    font-size: 36px;
   font-family: 'Montserrat', sans-serif;
 }
 h3{
+    font-size: 24px;
   font-family: 'Montserrat',sans-serif;
 }
+hr{
+  border: dotted #FF865E 6px;
+  border-bottom: none;
+  width: 4%;
+}
+a{
+  color: #40514E;
+  font-family: 'Merriweather',serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6
+}
+.intro{
+  width: 30%;
+  margin: auto auto 50px auto;
+}
 .sam-pic{
-  width: 35%;
-  height: 35%;
+  width: 10%;
+  height: 10%;
 }
 .top-cloud{
   width: 35%;
   height: 35%;
 }
 .top-container{
-  background-color: #C0D8C0;
+  background-color: #A2D2FF;
   position: relative;
   padding-top: 100px;
 }
 .middle-container{
-
+  background-color: #FEF9EF;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.bottom-continer{
-
+.bottom-container{
+  background-color: #FF865E;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.comp-icon{
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.animation-icon{
+  width: 18%;
+  height: 18%;
+  float: right;
+  margin-left: 30px;
+}
+.website-icon{
+  width: 18%;
+  height: 18%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
 }
